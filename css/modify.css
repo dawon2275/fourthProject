@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url('font.css');
+
+* {
+    font-family: 'Pretendard-Regular';
+    font-weight: 300;
+    color: #595959;
+}
+#wrap {
+    max-width: 430px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fffcef;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 50px 20px;
+    box-sizing: border-box;
+    background: #fffcef;
+}
+.container input {
+    display: block;
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    outline: none;
+}
+.container input:focus {
+    border: 1px solid #aaa;
+}
+.container #content {
+    height: 100px;
+    background: transparent;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+.container #content:focus {
+    border: 1px solid #aaa;
+}
+.container #btn {
+    margin-top: 10px;
+    background: #c35c1790;
+    font-size: 17px;
+    height: 50px;
+    color: #fff;
+}
+.container .thumbnail{
+    margin: 0 auto 30px;
+    width: 250px;
+}
+.container .thumbnail img {
+    width: 100%;
+}
